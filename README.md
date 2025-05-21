@@ -29,14 +29,14 @@ Run the script with a NEF file as input:
 ```bash
 
 python nef2tab.py input.nef output.tab
-
+```
 You will be prompted to enter your protein sequence as a one-letter code (no spaces).
 
 ## Example:
-
+```
 Please enter the full protein sequence (1-letter code, no spaces):
 GSSHHHHHHENLYFQG...
-
+```
 ---
 
 ## Output
