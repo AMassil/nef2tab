@@ -21,3 +21,30 @@ This tool facilitates the prediction of protein backbone and sidechain torsion a
 ## Installation
 
 This script requires only Python 3.6
+
+## Usage
+
+Run the script with a NEF file as input:
+
+```bash
+
+python nef2tab.py input.nef output.tab
+
+You will be prompted to enter your protein sequence as a one-letter code (no spaces).
+
+## Example:
+
+Please enter the full protein sequence (1-letter code, no spaces):
+GSSHHHHHHENLYFQG...
+
+---
+
+## Output
+
+The script generates a `.tab` file formatted for the TALOS-N server, containing:
+
+- One line per chemical shift
+- Columns: Residue Number, Residue Name, Atom Type, Chemical Shift
+- REMARK line with the protein name (from NEF)
+- Automatic skipping of unassigned residues
+- Inclusion of residue n-1 shifts when available
