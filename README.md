@@ -2,7 +2,7 @@
 
 Convert NEF files from CCPNMR to `.tab` format for TALOS-N
 
-`nef2tab.py` is a Python script designed to convert NMR-STAR NEF files exported from [CCPNMR Analysis](httpswww.ccpn.ac.uk) (after backbone chemical shift assignment) into `.tab` format compatible with the [TALOS-N Server](httpsspin.niddk.nih.govbaxnmrservertalosn).
+`nef2tab.py` is a Python script designed to convert NMR-STAR NEF files exported from [CCPNMR Analysis](https://www.ccpn.ac.uk) (after backbone chemical shift assignment) into `.tab` format compatible with the [TALOS-N Server](https://spin.niddk.nih.gov/bax-apps/nmrserver/talosn/).
 
 This tool facilitates the prediction of protein backbone and sidechain torsion angles from assigned chemical shifts.
 
